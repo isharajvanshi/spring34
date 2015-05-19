@@ -11,3 +11,15 @@ exports.circlecircumference = function (r) {
 exports.squarearea = function (s) {
   return s * s;
 };
+
+exports.squareperimeter = function (s) {
+  return s * 4;
+};
+
+exports.trianglearea = function (b,h) {
+  return .5 * b * h;
+};
+
+exports.triangleperimeter = function (b,h,l) {
+  return b + h + l;
+};
